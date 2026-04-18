@@ -96,3 +96,12 @@ CREATE TABLE IF NOT EXISTS `db_inventory`.`LIST_PRODUCTS_ORDERS` (
 SET SQL_MODE = @OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS = @OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS;
+
+INSERT INTO ROLES VALUES 
+(null, 'admin'),
+(null, 'person'),
+(null, 'customer'),
+(null, 'seller');
+
+INSERT INTO USERS VALUES 
+(1, null, 'Albeiro', 'Ramos', '1234567890', 'profealbeiro2020@gmail.com', sha1('12345'), 1);

@@ -1,0 +1,14 @@
+{
+    "name": "tu-proyecto/phpunit-ejercicio",
+    "description": "Ejercicio de pruebas unitarias con PHPUnit",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "classmap": [
+            "models/",
+            "controllers/"
+        ]
+    }
+}
